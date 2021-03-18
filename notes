@@ -1,0 +1,42 @@
+CampaignMembersRepository
+when you add a member sets meta to status=>active
+EmailTransmitController
+tx email - filters members by meta = null
+
+Should my migration be in the package?
+migrate rollback
+Changes to models - not included in git commit.
+MarketingCampaign.php, MarketingCampaignSchedule.php
+
+migrate rollback
+add vue - php artisan ui vue?
+ok to connect to mandrill (packages\Emails\EmailTemplateManager)
+
+
+add a schedule
+uid of marketing campaign
+schedule_days
+template
+
+
+_alpha
+params for a scheduled email
+title string
+paused bool
+schedule int
+schedule from date
+template type (mandrill) string
+mandrill template string
+blade template string
+email subject string
+cta link string ????
+text content string ??? (where from?)
+
+
+
+console
+ADD MEMBERS
+art campaign:add-members PB 97c5e4d6-4bd4-457c-9ea8-01eba7656bf3 30
+TX EMAILS
+art campaign:pseudo-transmit-email 97c5e4d6-4bd4-457c-9ea8-01eba7656bf3 30
+

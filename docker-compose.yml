@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: marcs
+    hostname: marcs
+    ports:
+      - 8105:80
+    volumes:
+      - ./:/var/www/html/marcs_tester
+      - /var/www/html/marcs/vendor

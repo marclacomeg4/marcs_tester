@@ -1,0 +1,14 @@
+version: '3.7'
+
+networks:
+  global4:
+    name: global4
+    driver: bridge
+
+services:
+  php:
+    networks:
+      - global4
+    volumes:
+      - ./../cacert.pem:/var/www/html/cacert.pem
+      - c:/wamp64/www/development/crm-models:/var/www/html/development/crm-models

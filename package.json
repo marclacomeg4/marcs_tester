@@ -1,0 +1,47 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --disable-host-check --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "spa": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js --env.mixfile=packages/global4communications/marcs/SPA/webpack.mix.js",
+        "spa-hot": "cross-env NODE_ENV=hot node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --disable-host-check --config=node_modules/laravel-mix/setup/webpack.config.js --env.mixfile=packages/global4communications/marcs/SPA/webpack.mix.js",
+        "spa-production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js --env.mixfile=packages/global4communications/marcs/SPA/webpack.mix.js"
+    },
+    "devDependencies": {
+        "axios": "^0.19",
+        "bootstrap": "^4.0.0",
+        "cross-env": "^7.0",
+        "global-affinity-manager": "git+ssh://git@github.com/Global4Communications/g4-affinity-manager.git",
+        "global-brand-manager": "git+ssh://git@github.com/Global4Communications/g4-brand-manager.git",
+        "jquery": "^3.2",
+        "js-graph": "git+https://samjoyce@bitbucket.org/elmhurstprojects/js-graph.git",
+        "laravel-mix": "^5.0.1",
+        "lodash": "^4.17.20",
+        "popper.js": "^1.12",
+        "resolve-url-loader": "^2.3.1",
+        "sass": "^1.20.1",
+        "sass-loader": "^8.0.0",
+        "vue": "^2.5.17",
+        "vue-template-compiler": "^2.6.10"
+    },
+    "dependencies": {
+        "apexcharts": "^3.20.0",
+        "global-brand-manager": "git+ssh://git@github.com/Global4Communications/g4-brand-manager.git",
+        "g4-components": "git+ssh://git@github.com:Global4Communications/g4-components.git",
+        "global-graph": "git+ssh://git@github.com/Global4Communications/g4-graph.git",
+        "laravel-echo": "^1.8.1",
+        "moment": "^2.27.0",
+        "pusher": "^3.0.1",
+        "pusher-js": "^7.0.0",
+        "vue-apexcharts": "^1.6.0",
+        "vue-bus": "^1.2.1",
+        "vue-router": "^3.4.3",
+        "vuetify": "^2.3.9",
+        "vuex": "^3.5.1"
+    }
+}
