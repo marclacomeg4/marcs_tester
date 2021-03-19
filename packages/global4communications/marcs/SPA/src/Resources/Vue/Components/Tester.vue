@@ -1,15 +1,19 @@
 <template>
     <v-row>
         <v-col>
-            this is the tester
+            <PaymentsPending></PaymentsPending>
 
         </v-col>
     </v-row>
 </template>
 
 <script>
+
+import PaymentsPending from "./PaymentsPending";
+
 export default {
-    name: "Tester"
+    name: "Tester",
+    components:{PaymentsPending}
 }
 </script>
 

@@ -36,7 +36,6 @@ export default {
 
         this.$store.dispatch('user/getUser');
 
-        this.$store.dispatch('email/get_api_initialisation');
 
     },
 
@@ -53,11 +52,3 @@ export default {
     }
 }
 </script>
-
-/*
-TODO - ml 18/1/2021
-adding scheduled events to a campaign. you can add events from playground even if the campaign is suspended
-(but emails wont be sent on scheduled transmit).
-But on the real front end - only allow to add events to a live campaign?
-*/
-

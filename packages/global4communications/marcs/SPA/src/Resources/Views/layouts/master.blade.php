@@ -20,8 +20,6 @@
     @yield('content')
 </div>
 
-{{env('APP_URL')}}/js/app.js
-
 @if(env('APP_ENV') !== 'production')
     <script src="{!! asset(mix('js/app.js')) !!}"></script>
 @else

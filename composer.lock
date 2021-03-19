@@ -734,11 +734,11 @@
         },
         {
             "name": "global4communications/crm-models",
-            "version": "0.2.23",
+            "version": "0.2.28",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Global4Communications/crm-models.git",
-                "reference": "a63c65f63bc132f0d9fb3efbda030fd8be2fee68"
+                "reference": "651a293520746ffd20ccc113764bfa591e8247e7"
             },
             "require": {
                 "awobaz/compoships": "^1.1",
@@ -758,7 +758,7 @@
                 }
             },
             "description": " Repo for models/migrations",
-            "time": "2021-03-13T09:28:56+00:00"
+            "time": "2021-03-18T16:51:46+00:00"
         },
         {
             "name": "global4communications/repository-core",

@@ -9,6 +9,13 @@
     "license": "MIT",
     "repositories": [
         {
+            "type": "path",
+            "url": "/var/www/html/development/crm-models",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
             "type": "composer",
             "url": "https://packages.global4.co.uk/"
         }
@@ -69,6 +76,9 @@
             "database/"
         ],
         "psr-4": {
+            "Global4Communications\\Marcs\\Core\\": "packages/global4communications/marcs/Core/src/",
+            "Global4Communications\\Marcs\\API\\": "packages/global4communications/marcs/API/src/",
+            "Global4Communications\\Marcs\\SPA\\": "packages/global4communications/marcs/SPA/src/",
             "Global4Communications\\Marcs\\Tests\\": "packages/global4communications/marcs/tests/"
         }
     },

@@ -15,7 +15,7 @@ class MarcsAPIServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'Global4Communications\Marketing\API\Http\EndPoints';
+    protected $namespace = 'Global4Communications\Marcs\API\Http\EndPoints';
 
     /**
      * Define your route model bindings, pattern filters, etc.
