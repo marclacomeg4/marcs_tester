@@ -9,13 +9,6 @@
     "license": "MIT",
     "repositories": [
         {
-            "type": "path",
-            "url": "/var/www/html/development/crm-models",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
             "type": "composer",
             "url": "https://packages.global4.co.uk/"
         }

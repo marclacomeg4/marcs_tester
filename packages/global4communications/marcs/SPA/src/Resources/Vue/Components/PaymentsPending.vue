@@ -73,6 +73,7 @@ twenty_fourth_monthly() {
         }
 },
     mounted: function () {
+        /*
         this.loading_payments = true;
         axios.post('marcs-api/testing/payments-pending',).then(response => {
             this.loading_payments = false;
@@ -81,6 +82,8 @@ twenty_fourth_monthly() {
         }).catch(e => {
             console.log('status ' + e.response.status)
         });
+
+         */
     }
 }
 </script>
