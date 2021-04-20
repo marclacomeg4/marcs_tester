@@ -10,6 +10,13 @@ use  Illuminate\Http\Request;
 
 class TestController extends Controller
 {
+
+    public function testInclude()
+    {
+        echo "i am the test inculde and i am on github";
+    }
+
+
     public function paymentsPending(Request $request)
     {
         $date = Carbon::createFromDate($request->input('date'));
